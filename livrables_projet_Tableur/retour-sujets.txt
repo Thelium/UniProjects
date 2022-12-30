@@ -1,0 +1,4 @@
+
+- Le premier sujet (Tableur) est validé.
+
+- Il a l'avantage de ne pas être limité en nombre de fonctionnalités.
