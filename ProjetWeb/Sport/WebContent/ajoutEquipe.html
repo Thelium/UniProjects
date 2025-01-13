@@ -1,0 +1,28 @@
+<div id="soldeCompte" class="solde-top-right">
+  <span> <span id="soldeValue"></span> </span>
+  <img src="piece.png" alt="Pièce" class="image-resize">
+</div>
+<h2> Ajout Equipe </h2>
+
+<h3> Vous pouvez ajoutez une Equipe ci-dessous : </h3>
+
+<form action="ajoutEquipe.html" method="post">
+    <label for="nomEquipe "> Nom de l'equipe :</label>
+    <input type="text" name="login" id="nomEquipe" required>
+    <br>
+    <label for="sport-select "> Sport :</label>
+    <select name ="sports" id="sport-select" >
+    <option value=""> -- Veuillez sélectionner un Sport--</option>
+    </select>
+    
+    <br>
+    <input type="button" id="BTAddEquipe" value="Ajouter l'equipe">
+  	<br>
+    <label id = ErrorEquipe> </label><br>
+</form>
+<br>
+<div id="ListEquipe"> 
+</div>
+<br>
+
+<button id="BTAdmin" class="btn-back">Retour</button>

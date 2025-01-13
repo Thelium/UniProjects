@@ -1,0 +1,34 @@
+<div id="soldeCompte" class="solde-top-right">
+  <span> <span id="soldeValue"></span> </span>
+  <img src="piece.png" alt="Pièce" class="image-resize">
+</div>
+
+<h2> Ajout Match</h2> <br>
+
+<h3>Sélectionnez le sport correspondant au match </h3> <br>
+
+<form action="ajoutMatch.html" method="post">
+	<label for="sport-select "> Sport :</label>
+    <select name ="sports" id="sport-select" >
+    
+    </select>
+    
+    <input type="button" id="BTSportSelect" value="OK">
+</form>
+<label id="ErrorSport"> </label>
+
+
+<label id="MessageSportSelected"> </label>
+
+<form action="ajoutMatch.html" method="post" id = "SelectionEquipe">
+	
+</form>
+
+
+<label id="Resultat"> </label><br>
+
+
+<button id='BTEquipeSelect' disabled="disabled"> Valider le match </button>
+<br>
+<label id="ErrorEquipe"> </label>
+<button id="BTAdmin" class="btn-back">Retour</button>

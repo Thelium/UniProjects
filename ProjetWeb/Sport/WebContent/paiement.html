@@ -1,0 +1,24 @@
+<h2> Paiement </h2>
+
+
+<div id = "recapitulatif"> </div>
+<p> Vous pouvez payer grâce à votre code de carte bleu </p>
+
+<form id="paiement">
+    <label for="numeroCarte"> Numéro de carte de crédit :</label>
+    <input type="text" id="numeroCarte" name="numeroCarte" placeholder="Numéro de carte" required><br>
+
+    <label for="cvv">Code de sécurité (CVV) :</label>
+    <input type="text" id="cvv" name="cvv" placeholder="CVV" required><br>
+
+    <label for="dateExpiration">Date d'expiration :</label>
+    <input type="text" id="dateExpiration" name="dateExpiration" placeholder="MM/AA" required><br>
+
+    <button type="submit">Payer</button>
+    <label id="ErrorPaiement"></label>
+ </form>
+
+
+<button id="BTAdmin" class="btn-back"> Annulez le paiement</button><br>
+<br>
+<p> Une fois le paiement validé vos pièces seront automatiquement crédité sur votre compte.</p>

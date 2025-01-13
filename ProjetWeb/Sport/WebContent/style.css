@@ -1,0 +1,236 @@
+header {
+  height: 100px; /* Ajustez la hauteur de l'en-tête selon vos besoins */
+  background-color: #f1f1f1; /* Exemple de couleur de fond */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding : 10 px;
+}
+body {
+      background-color: #ECD6B9;
+       
+  	}
+.content{
+	margin-top: 10px;
+}  
+
+footer {
+  background-color: #f1f1f1;
+  padding: 20px 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}	
+  	
+header img {
+  max-height: 90%;
+  max-width: 90%;
+}
+
+h1 {
+  margin: 0;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Arial, sans-serif;
+  }
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+th {
+    background-color: #f2f2f2;
+  }
+
+
+
+h2 {
+  color: #333;
+  background-color: #f8f8f8; 
+  padding: 10px; 
+  border-radius: 5px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre légère */
+  text-align : center
+}
+
+#Crediter,#Debiter {
+  font-size: 16px;
+  padding: 10px 20px;
+  background-color: #f2f2f2;
+}
+
+#BTHome{
+	float :right;
+}
+
+.solde-top-right {
+  position: fixed;
+  top: 105px;
+  right: 50px;
+  font-size: 1.3em;
+  font-weight : 600;
+}
+
+.image-resize {
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  top: 100px;
+  right: 8px;
+}
+
+.btn-back {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  color: #333;
+  border: none;
+  transition: background-color 0.3s ease;
+  background-color: #f2f1ef
+}
+.btn-back:hover {
+  background-color: #FFA500;
+}
+
+
+.joli-bouton {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  color: #333;
+  border: none;
+  transition: background-color 0.3s ease;
+  background-color: #f2f1ef
+}
+
+.joli-bouton:hover {
+  background-color: #FFA500;
+}
+
+.cote-button {
+      display: inline-block;
+      padding: 10px;
+      background-color: #5fb013; 
+      border: none;
+      border-radius: 5px;
+      text-align: center;
+      transition: background-color 0.3s ease;
+      width: 150px;
+      margin-right: 10px;
+      padding: 5px 10px; 
+    }
+    
+.cote-button:hover {
+  background-color:#7ee871;
+}
+    
+.cote-button .equipe-nom {
+      font-size: 18px;
+    }
+.cote-button .cote-valeur {
+      font-size: 14px;
+      font-weight: bold;
+}
+.green {
+	font-weight : 600;
+    color: green;
+}
+
+.red {
+	font-weight : 600;
+    color: red;
+}
+
+.gras{
+	font-weight : 600;
+}
+
+
+
+.container {
+  display: flex;
+}
+
+#ListeMatchsTermine {
+  width :50%
+}
+
+#ListeMatchsAvenir {
+	width :50%
+}
+.match-item {
+  margin-bottom: 10px; /* Ajustez la valeur selon l'espace souhaité entre chaque match */
+}
+
+
+input[type="button"]{
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+  background-color:#f2f1ef;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left :5px;
+  margin-right :5px;
+  margin-bottom: 10px;
+  
+}
+input[type="button"]:hover {
+  background-color: #FFA500;
+}
+
+
+select {
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+select:focus {
+  border-color: #5fb013;
+}
+
+select option {
+  padding: 5px;
+}

@@ -1,0 +1,29 @@
+<div id="soldeCompte" class="solde-top-right">
+  <span> <span id="soldeValue"></span> </span>
+  <img src="piece.png" alt="Pièce" class="image-resize">
+</div>
+
+<h2> Débiter  Compte </h2><br>
+
+<h3>Vous pouvez transférer vos pièces vers un votre compte bancaire </h3> <br>
+<p> Vous pouvez saisir le nombre de pièces que vous souhaitez transférer vers votre compte bancaire .<br>
+
+
+<form> 
+<label for="euros"> Valeur</label>
+<input type="number" id="euros" name="euros" value="0"  required> €<br>
+<label for="nombre_piece"> Pièces  </label>
+<input type="number" id="nombre_piece" name="nombre_piece" value="0"  required> <br>
+
+
+<label for="IBAN">IBAN du compte à créditer</label>
+    <input type="text" id="IBAN" name="IBAN" placeholder="numéro IBAN" required><br>
+</form>
+
+<input type="button" id="validerDebit" value ="Valider transférer vers mon compte bancaire"><br>
+<br>
+<div id ="errorDebit"> 
+	
+</div>
+<br>
+<button id="BTAdmin" class="btn-back">Retour </button>

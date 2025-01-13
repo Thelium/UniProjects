@@ -1,0 +1,82 @@
+<div id="soldeCompte" class="solde-top-right">
+  <span> <span id="soldeValue"></span> </span>
+  <img src="piece.png" alt="Pièce" class="image-resize">
+</div>
+
+<h2> Modification match </h2>
+
+<h3>Vous pouvez modifier le match ci-dessous.<br></h3>
+<h4> Pour enregistrer vos modification appuyez sur valider sinon appuyer sur le bouton retour. </h4>
+
+<p>
+Attention, si vous ajoutez un score à un match, les paris sur ce match seront automatiquement validés ou invalidés
+de façon irréversible. <br>
+ 
+Par conséquent, modifier le résultat d'un match déjà terminé n'affectera pas les résultat des paris des joueurs
+</p> <br>
+
+<form action="ajoutMatch.html" method="post">
+	<label for="equipeDom-select "> Equipe Domicile :</label>
+    <select name ="sports" id="equipeDom-select" >
+    
+    </select>
+    <br>
+    
+    <label for="equipeExt-select "> Equipe Extérieur :</label>
+    <select name ="sports" id="equipeExt-select" >
+    
+    </select>
+    
+    
+     
+    
+</form>
+
+<form>
+<h3>Selectionnez un résultat:</h3>
+
+    <div>
+      <input type="radio" id="avant" name="resultat" value="avant"
+             checked>
+      <label for="avant"> A venir </label>
+    </div>
+
+    <div>
+      <input type="radio" id="domicile" name="resultat" value="domicile">
+      <label for="domicile">Victoire domicile </label>
+    </div>
+
+    <div>
+      <input type="radio" id="ext" name="resultat" value="ext">
+      <label for="ext"> Victoire extérieur</label>
+    </div>
+    
+    <div>
+      <input type="radio" id="nul" name="resultat" value="nul">
+      <label for="nul"> Match nul</label>
+    </div>
+
+
+ 
+ <h3>Sélectionnez le score de chaque équipe si le match est terminé</h3> 
+ <label for="scoreDomicile"> Score Domicile  :</label>
+ <input type="number" name="scoreDomicile" id="scoreDomicile" value= "0">
+ <label for="scoreExterieur"> Score Extérieur  :</label>
+ <input type="number" name="scoreExterieur" id="scoreExterieur" value="0"> 
+ </form>
+ 
+ <h3> Modifier les cotes du match</h3> 
+ <label for="coteDomicile"> Cote Domicile  :</label>
+ <input type="number" name="coteDomicile" id="coteDomicile" value= "0">
+ <label for="coteNul"> Cote score nul  :</label>
+ <input type="number" name="coteNul" id="coteNul" value="0">
+ <label for="coteExterieur"> Cote Extérieur </label>
+ <input type="number" name="coteExterieur" id="coteExterieur" value="0">
+ 
+ </form>
+ <br>
+<input type="button" id="BTModificationMatch" value="Valider les changements"><br>
+<label id="ErrorEquipe"></label>
+
+
+<button id="BTAdmin" class="btn-back">Retour</button>
